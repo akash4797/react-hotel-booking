@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.starter-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("https://images.unsplash.com/photo-1455587734955-081b22074882"); 
+    background-size: cover;
+    background-position: center;    
+}
+
+.landing-title{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.landing-title h3{
+    font-size: 30px;
+}
+
+.exclusive-rooms-section{
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.exclusive-rooms{    
+    display: flex;
+    flex-direction: row;
+    gap: 1.3em;      
+}
+
+.exclusive-rooms-roo{
+    display: flex;
+    flex-direction: row;
+    gap: 1.3em;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.card-grid{
+    width: 18rem;
+}
+
+footer{
+    background-color: black;    
+}
+
+.all-links{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.logo-with-des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.3em;       
+}
+.logo-with-des h3 , .links-1 h3{
+    color: white;
+}
+
+.links-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.3em;
+}
+
+.links-1 li{
+    list-style-type: none;
+    color: white;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.dicrip{
+    display: flex;
+    flex-direction: row;      
+    justify-content: center;        
+}
+
+.dicrip .image img{
+    width: 80%;
+}
+
+.s-link{
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .exclusive-rooms{
+        flex-wrap: wrap;
+    }
+    .dicrip{
+        flex-wrap: wrap;       
+    }
+    .landing-title h3{
+        font-size: 20px;
+    }
+  }
